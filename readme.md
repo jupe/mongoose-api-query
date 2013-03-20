@@ -1,3 +1,11 @@
+## jupe -fork
+Added select feature (assumed that "select" is not fieldname).
+```
+/monsters?color=purple&eats_humans=true&select=name
+```
+
+Found some issues related to subschemas, so removed temporary whole subschema parser.
+
 ## Overview
 If you use Mongoose to help serve results for API calls, you might be used to handling calls like:
 
