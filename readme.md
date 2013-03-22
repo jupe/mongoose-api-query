@@ -1,7 +1,12 @@
 ## jupe -fork
-Added select feature (assumed that "select" is not fieldname).
+Added 
+-select feature (assumed that "select" is not fieldname).
+-count feature  (count docs without limits/skips)
 ```
 /monsters?color=purple&eats_humans=true&select=name
+/monsters?color=purple&eats_humans=true&count=1
+/monsters?keywords={in}a,b
+/monsters?tags={match}key=x,value=y
 ```
 
 Found some issues related to subschemas, so removed temporary whole subschema parser.
