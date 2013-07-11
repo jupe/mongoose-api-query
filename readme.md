@@ -127,7 +127,13 @@ This is a list of the optional search operators you can use for each SchemaType.
 - `latlon={near}37,-122,5` Near 37,-122, with a 5 mile max radius
 - `latlon={near}37,-122` Near 37,-122, no radius limit. Automatically sorts by distance
 
+#### Special logical query operator query params
 
+Specify the fields in a comma separated list that are to be used with an operator.
+All remaining fields are given to $and.
+
+- `ors=match,batch` - The fields match and batch will be given to $or: []
+- `nors=match,batch` - The fields match and batch will be given to $nor: []
 
 ## To run tests
 
