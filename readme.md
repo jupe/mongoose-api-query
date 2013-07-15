@@ -29,6 +29,14 @@ Or pass a callback in and it will run `.exec` for you:
 Monster.apiQuery(req.query, function(err, monsters){...
 ```
 
+Or pass a callback in to apiQueryMetaCb and it will return the query and the callback will get any meta data passed to it.
+Currently the metadata consists of extra information about paging such as the recordCount and pageCount.
+
+```
+Monster.apiQueryMetaCb(req.query, function(err, metaData){...
+```
+
+
 ## Examples
 
 `t`, `y`, and `1` are all aliases for `true`:
