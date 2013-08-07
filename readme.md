@@ -1,7 +1,8 @@
 ## jupe -fork
 Added 
--select feature (assumed that "select" is not fieldname).
--count feature  (count docs without limits/skips)
+ - select feature (assumed that "select" is not fieldname).
+ - count feature  (count docs without limits/skips)
+ - Merges from others forks
 ```
 /monsters?color=purple&eats_humans=true&select=name
 /monsters?color=purple&eats_humans=true&count=1
