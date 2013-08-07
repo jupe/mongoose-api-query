@@ -8,6 +8,8 @@ Added
 /monsters?keywords={in}a,b
 /monsters?tags={match}key=x,value=y
 ```
+travis Testing:
+[![Build Status](https://travis-ci.org/jupe/mongoose-api-query.png?branch=master)](https://travis-ci.org/jupe/mongoose-api-query)
 
 Found some issues related to subschemas, so removed temporary whole subschema parser.
 
