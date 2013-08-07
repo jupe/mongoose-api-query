@@ -3,12 +3,14 @@ Added
  - select feature (assumed that "select" is not fieldname).
  - count feature  (count docs without limits/skips)
  - Merges from others forks
+
 ```
 /monsters?color=purple&eats_humans=true&select=name
 /monsters?color=purple&eats_humans=true&count=1
 /monsters?keywords={in}a,b
 /monsters?tags={match}key=x,value=y
 ```
+
 travis Testing:
 [![Build Status](https://travis-ci.org/jupe/mongoose-api-query.png?branch=master)](https://travis-ci.org/jupe/mongoose-api-query)
 
