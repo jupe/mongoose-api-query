@@ -1,6 +1,7 @@
 var expect = require("expect.js")
   , Browser = require("zombie")
-  , browser = new Browser();
+  , browser = new Browser()
+  , app = require('../app');
 
 var hasMonster = function (name) {
   expect(browser.text()).to.contain('"' + name + '"');

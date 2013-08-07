@@ -1,0 +1,63 @@
+
+  Express server listening on port 3000
+[90mGET /test1 [32m200 [90m7ms - 2[0m
+.[90mGET /test1?name=people [32m200 [90m1ms - 2[0m
+.unknown param type: false
+[90mGET /test1?coffee=black [32m200 [90m1ms - 2[0m
+.[90mGET /test1?sort_by=monster_identification_no,-1 [32m200 [90m1ms - 2[0m
+.[90mGET /test1?sort_by=foods.name,1 [32m200 [90m1ms - 2[0m
+.[90mGET /test1?sort_by=foods.name [32m200 [90m1ms - 2[0m
+.[90mGET /test1?sort_by=monster_identification_no,desc [32m200 [90m1ms - 2[0m
+.[90mGET /test1?loc={near}38.8977,-77.0366 [32m200 [90m2ms[0m
+.[90mGET /test1?loc={near}38.8977,-77.0366,1 [32m200 [90m1ms[0m
+.[90mGET /test1?loc={near}38.8977,-77.0366,3 [32m200 [90m3ms[0m
+.[90mGET /test1?monster_identification_no={gt}200{lt}100439 [32m200 [90m1ms - 2[0m
+.[90mGET /test1?monster_identification_no={ne}200 [32m200 [90m1ms - 2[0m
+.[90mGET /test1?name={ne}biggie [32m200 [90m1ms - 2[0m
+.[90mGET /test1?page=2&per_page=4 [32m200 [90m1ms - 2[0m
+.[90mGET /test1?page=1 [32m200 [90m1ms - 2[0m
+.unknown param type: false
+[90mGET /test1?data.mood=sad [32m200 [90m0ms - 2[0m
+.unknown param type: false
+[90mGET /test1?data.mood=SAD [32m200 [90m1ms - 2[0m
+.unknown param type: false
+[90mGET /test1?data.MODE=kill [32m200 [90m1ms - 2[0m
+.unknown param type: false
+[90mGET /test1?data.hands=14 [32m200 [90m1ms - 2[0m
+.[90mGET /test1?name=big%20purple [32m200 [90m1ms - 2[0m
+.[90mGET /test1?name={exact}big%20purple [32m200 [90m1ms - 2[0m
+.[90mGET /test1?name={exact}big%20pUrple%20People%20Eater [32m200 [90m0ms - 2[0m
+.[90mGET /test1?name={exact}Big%20Purple%20People%20Eater [32m200 [90m1ms - 2[0m
+.[90mGET /test1?name=biggie%20smalls [32m200 [90m1ms - 2[0m
+.[90mGET /test1?monster_identification_no=301 [32m200 [90m0ms - 2[0m
+.[90mGET /test1?monster_identification_no=30 [32m200 [90m2ms - 2[0m
+.[90mGET /test1?monster_identification_no={mod}150,1 [32m200 [90m1ms[0m
+.[90mGET /test1?monster_identification_no={gt}100439 [32m200 [90m1ms - 2[0m
+.[90mGET /test1?monster_identification_no={gte}100439 [32m200 [90m1ms - 2[0m
+.[90mGET /test1?monster_identification_no={lt}200 [32m200 [90m1ms - 2[0m
+.[90mGET /test1?monster_identification_no={lte}200 [32m200 [90m1ms - 2[0m
+.[90mGET /test1?monster_identification_no=1,301 [32m200 [90m1ms - 2[0m
+.[90mGET /test1?monster_identification_no={nin}1,301 [32m200 [90m1ms - 2[0m
+.[90mGET /test1?name={nin}Purple,Enstein [32m200 [90m2ms - 2[0m
+.unknown param type: false
+[90mGET /test1?foods.name={nin}kale,beets [32m200 [90m0ms - 2[0m
+.[90mGET /test1?monster_identification_no={all}1,301 [32m200 [90m1ms - 2[0m
+.[90mGET /test1?eats_humans=true [32m200 [90m0ms - 2[0m
+.[90mGET /test1?eats_humans=t [32m200 [90m1ms - 2[0m
+.[90mGET /test1?eats_humans=yes [32m200 [90m1ms - 2[0m
+.[90mGET /test1?eats_humans=y [32m200 [90m0ms - 2[0m
+.[90mGET /test1?eats_humans=1 [32m200 [90m1ms - 2[0m
+.[90mGET /test1?eats_humans=kljahsdflakjsf [32m200 [90m1ms - 2[0m
+.[90mGET /test1?eats_humans= [32m200 [90m1ms - 2[0m
+.unknown param type: false
+[90mGET /test1?foods.name=kale [32m200 [90m1ms - 2[0m
+.unknown param type: false
+[90mGET /test1?foods.name={all}kale,beets [32m200 [90m1ms - 2[0m
+.unknown param type: false
+[90mGET /test1?foods.name=kale,beets [32m200 [90m0ms - 2[0m
+.unknown param type: false
+[90mGET /test1?foods.calories={gt}350 [32m200 [90m1ms - 2[0m
+.unknown param type: false
+[90mGET /test1?foods.vegetarian=t [32m200 [90m1ms - 2[0m
+.
+
